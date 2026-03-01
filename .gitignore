@@ -1,0 +1,27 @@
+# --- IDE Private Settings ---
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# --- Build Folders (The biggest "junk") ---
+# This ignores any folder starting with cmake-build
+cmake-build-*/
+build/
+bin/
+out/
+
+# --- Compiled Files ---
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.dll
+
+# --- Operating System Junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
